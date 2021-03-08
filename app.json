@@ -1,0 +1,12 @@
+{
+  "name": "paper-teste",
+  "displayName": "paper-teste",
+  "expo": {
+    "name": "paper-teste",
+    "slug": "paper-teste",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
