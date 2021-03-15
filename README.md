@@ -1,4 +1,4 @@
-# paper-teste
+# Agenda Agora
 
 # Para iniciar o projeto
 - rode 'expo start'
