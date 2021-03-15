@@ -54,7 +54,7 @@ export default function MainHomeScreen() {
 											color="var(--primary)"
 											weight={500}
 										>
-											25 &nbsp;
+											{`${tasks.length}&nbsp;`}
 										</UIText>
 										<FontAwesome5
 											size={20}
@@ -83,7 +83,7 @@ export default function MainHomeScreen() {
 											color="var(--primary)"
 											weight={500}
 										>
-											5 &nbsp;
+											{`${items.length}&nbsp;`}
 										</UIText>
 										<FontAwesome5
 											size={20}
@@ -99,7 +99,7 @@ export default function MainHomeScreen() {
 				<Grid item xs={10}>
 					<Box p="1rem">
 						<UIText color="var(--primary)" weigh={500} size="22px">
-							{`Tarefas para hoje: ${tasks.length}`}
+							Tarefas para hoje
 						</UIText>
 						<Grid container>
 							{tasks.map((item) => (

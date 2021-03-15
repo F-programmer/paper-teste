@@ -16,7 +16,7 @@ export default function MainHomeScreen() {
 				<Grid item xs={10}>
 					<Box p="1rem">
 						<UIText color="var(--primary)" weigh={500} size="22px">
-							{`Todas as tarefas: ${tasks.length}`}
+							Todas as tarefas
 						</UIText>
 						<Grid container>
 							{tasks.map((item) => (
