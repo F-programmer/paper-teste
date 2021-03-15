@@ -1,0 +1,18 @@
+body,
+htmnl {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+:root {
+	--primary: #00c652;
+	--secondary: #e1e2e1;
+	--success: #009944;
+	--error: #c9000f;
+	--info: #2196f3;
+	--t-primary: #565656;
+	--t-secondary: #fff;
+	--t-disabled: #e1e2e1;
+	--black: #000;
+	--white: #fff;
+}
