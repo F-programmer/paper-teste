@@ -54,7 +54,7 @@ export default function MainHomeScreen() {
 											color="var(--primary)"
 											weight={500}
 										>
-											{`${tasks.length}&nbsp;`}
+											{`${items.length}&nbsp;`}
 										</UIText>
 										<FontAwesome5
 											size={20}
@@ -83,7 +83,7 @@ export default function MainHomeScreen() {
 											color="var(--primary)"
 											weight={500}
 										>
-											{`${items.length}&nbsp;`}
+											{`${tasks.length}&nbsp;`}
 										</UIText>
 										<FontAwesome5
 											size={20}
